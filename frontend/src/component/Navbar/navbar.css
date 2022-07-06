@@ -36,4 +36,15 @@
 
 #navLink2:hover {
     color: #22461a;
+    /* #6fc8ea */
 }
+
+@media only screen and (max-width: 960px) {
+    #navBar{
+        background-color: none;
+    }
+  
+    #nav1{
+        padding-left: 3rem;
+    }
+  }
