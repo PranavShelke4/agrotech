@@ -1,0 +1,60 @@
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+   .contact-container-1{
+    padding: 35px;
+    width: 60%;
+    h2{
+        font-weight: bolder;
+        font-size: 3rem;
+        color: #053245;
+    }
+    button {
+        background-color: #053245;
+        color: white;
+        border: none;
+        padding: 1.05rem 1.25rem;
+        border-radius: 20px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            background-color: #005980;
+            color: white;
+        }
+    }
+
+   }
+   .contact-container-2{
+    width: 40%;
+    img{
+        width: 100%;
+    }
+   } 
+}
+
+
+@media screen and (max-width: 556px){
+    .contact-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    
+       .contact-container-1{
+        padding: 35px;
+        width: 100%;
+       }
+       .contact-container-2{
+        display: none;
+        width: 40%;
+        img{
+            width: 100%;
+        }
+       } 
+    }
+
+}
