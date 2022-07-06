@@ -1,7 +1,39 @@
+#navBar{
+    padding-top: 2rem;
+}
+
 #nav1{
-    padding-left: 30rem;
+    padding-left: 25rem;
+    color: white;
+    font-size: 1.5rem;
 }
 
 #navLink{
     padding-left: 3rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#navLink2{
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    width: 6rem;
+}
+
+#navLink3{
+    font-size: 1.5rem;
+    color: lightslategray;
+    margin-left: 3rem;
+}
+
+#nav1:hover {
+    color: #22461a;
+}
+
+#navLink:hover {
+    color: #22461a;
+}
+
+#navLink2:hover {
+    color: #22461a;
 }
