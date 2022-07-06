@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.scss'
+import { Link } from "react-router-dom";
 
 
 function footer() {
@@ -7,7 +8,7 @@ function footer() {
     <>
       <div className='footer-container'>
         <div className='footer-logosection'>
-          
+
         </div>
         
       </div>
