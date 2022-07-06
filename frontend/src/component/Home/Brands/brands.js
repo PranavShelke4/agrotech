@@ -1,11 +1,11 @@
 import React from "react";
 import "./brands.scss";
-import Amazon from '../../assets/Amazon.svg'
-import Facebook from '../../assets/Facebook.svg'
-import GitHub from '../../assets/GitHub.svg'
-import Google from '../../assets/Google.svg'
-import Instagram from '../../assets/Instagram.svg'
-import Microsoft from '../../assets/Microsoft.svg'
+import Amazon from '../../../assets/Amazon.svg'
+import Facebook from '../../../assets/Facebook.svg'
+import GitHub from '../../../assets/GitHub.svg'
+import Google from '../../../assets/Google.svg'
+import Instagram from '../../../assets/Instagram.svg'
+import Microsoft from '../../../assets/Microsoft.svg'
 
 
 const brands = () => {
